@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Hepta+Slab:wght@100&family=Outfit:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+
+.header-container{
+
+
+  z-index: 1000;
+  background:white; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%;
+
+}
+
+.logo-img{
+  width: 100px;
+  align-self: center;
+  margin-left: 20px;
+  margin-right: 0px;
+  
+}
+.logo-img:hover{
+  cursor: pointer;
+  
+}
+
+.company-name{
+    margin-left: 0px;
+    font-size: 3.5rem;
+    font-family: 'Cabin', sans-serif;
+    color: #3681BA;
+
+}
+
+.company-name:hover{
+
+  cursor: pointer;
+
+}
+
+.container{
+
+    margin: auto;
+    ;
+   
+}
+.stroke-icon{
+    stroke : white;
+}
+.main-container{
+    
+    color: white;
+    margin: auto;
+    
+}
+
+.navbar{
+
+
+
+    display: flex;
+    height: 100px;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 700PX;
+    font-size: 30px;
+    color: transparent;
+}
+
+.navbar li{
+    list-style: none;
+    width: 180px;
+    
+    color: #3681BA;
+    font-style: italic;
+
+    transition-duration: 0.4s;
+}
+
+
+.navbar li:hover{
+    font-weight: bold;
+    cursor: pointer;
+    color: #3681BA;
+    
+}
+
+.navbar-margin{
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigBtn{
+  margin-left: 50px;
+  margin-right: 100px;
+  
+}
+.btn{   
+
+  
+  border-radius: 25px;
+  border: 2px solid #5EC2ED;
+
+
+  color:white;
+  /*color: var(--button-color);*/
+  background: #3681BA;
+
+  width: 236px;
+  height: 71px;
+  padding: 0 0px;
+  
+  font-family: 'Cabin', sans-serif;
+  
+  font-size: 36px;
+
+  transition-duration: 0.4s;
+  
+ 
+}
+.btn:hover{
+
+
+    color:#3681BA;
+    /*color: var(--button-color);*/
+    background: white;
+  }
+  
+
+.section1{
+    
+    background: linear-gradient(
+    
+    
+    to bottom, 
+    white 0%, 
+    white 50%, 
+    #6289AC 50%, 
+    #6289AC 100%
+       
+    
+    );
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 201px;
+    padding-left:200px;
+    padding-right:200px;
+    height: 850px;
+}
+.section1 h1{
+
+    
+
+    margin-top: 115px;
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-style: italic;
+    
+}
+.section1 p{
+
+    position: relative;
+    font-style: italic;
+
+    padding: 0px 150px 0px 150px;
+
+    margin-top: 0px;
+    
+    font-size: 20px;
+}
+
+
+.btn2{
+
+    margin-top: 20px;
+
+
+
+    margin-left: 400px;
+
+    border: 2px solid #3681BA;
+    border-radius: 25px;
+
+    width: 236px;
+    height: 71px;
+    padding: 0 0px;
+    
+    font-family: 'Cabin', sans-serif;
+    color: #3681BA;
+    background: white;
+    font-size: 20px;
+    font-style: italic;
+
+    transition-duration: 0.4s;
+
+}
+
+
+.btn2:hover{
+    color: white;
+    background-color: #3681BA;
+    cursor: pointer;
+
+}
+
+.right{
+    width: 50%;
+}
+
+
+
+
+.left{
+    width: 50%;
+}
+
+
+
+.img1{
+
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);;
+
+    position: absolute;
+    top: 30%;
+    left: 60%;
+
+}
+.img2{
+
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);;
+
+    position: absolute;
+    top: 20%;
+    left: 70%;
+
+}
+.img3{
+
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);;
+
+    position: absolute;
+    top: 50%;
+    left: 65%;
+
+}
+.img4{
+
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);;
+
+    position: absolute;
+    top: 65%;
+    left: 75%;
+
+}
+.img5{
+
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    box-shadow: 2px 2px 2px 2px rgba(32,32,32,0.3);;
+
+    position: absolute;
+    top: 70%;
+    left: 57%;
+
+}

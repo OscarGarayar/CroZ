@@ -1,0 +1,32 @@
+
+
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+
+.justify-center{
+    justify-content: center;
+}
